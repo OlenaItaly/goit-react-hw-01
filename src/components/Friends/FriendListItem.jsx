@@ -1,4 +1,6 @@
-export default function FriendListItem({ friends: { avatar, name, isOnline } }) {
+import "./FriendListItem.module.css";
+
+export default function FriendListItem({ friend: { avatar, name, isOnline } }) {
     return (
         <div>
             <img src={avatar} alt="Avatar" width="48" />
