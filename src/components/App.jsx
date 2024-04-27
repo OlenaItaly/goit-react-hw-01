@@ -12,13 +12,10 @@ export default function App() {
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
-            //   stats={userData.stats}
-              followers={userData.stats.followers}
-              views={userData.stats.views}
-              likes={userData.stats.likes}
+        stats={userData.stats}
+              
           />
         <FriendList friends={friends} />
     </>
   )
 }
-// followers, views, likes

@@ -1,4 +1,4 @@
-export default function Profile({ name, tag, location, image, followers, views, likes}) {
+export default function Profile({ name, tag, location, image, stats: { followers, views, likes }}) {
    
     return (
       <div>
