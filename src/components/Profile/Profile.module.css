@@ -44,7 +44,7 @@
 .statsItem{
    
     border-top: 3px solid gray;
-     /* border-right: 3px solid gray; */
+     border-right: 3px solid gray;
     font-size: 28px;
     padding: 18px;
     background-color:rgb(223, 218, 218);
