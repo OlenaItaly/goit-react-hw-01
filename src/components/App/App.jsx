@@ -19,10 +19,12 @@ export default function App() {
         location={userData.location}
         image={userData.avatar}
         stats={userData.stats}
-         className={clsx(css.section)}     
+             
           />
-          <FriendList friends={friends} className={clsx(css.section)} />
-        <TransactionHistory items={transactions}  className={clsx(css.section)} />
+      <FriendList friends={friends} />
+      
+      <TransactionHistory items={transactions} />
+      
     </div>
   )
 }
